@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node esbuild.config.cjs --watch=forever",
+    "build": "node esbuild.config.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "esbuild": "^0.16.4",
+    "esbuild-css-modules-plugin": "^2.6.3",
+    "esbuild-serve": "^1.0.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
